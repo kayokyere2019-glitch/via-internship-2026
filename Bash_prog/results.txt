@@ -1,0 +1,39 @@
+==========================================
+        LOG ANALYSIS SUMMARY REPORT       
+==========================================
+
+1. Total Number of Log Lines: 51
+
+2. Count of Lines Per Log Level:
+---------------------------------
+   - INFO : 22
+   - WARN : 12
+   - ERROR: 17
+
+3. Top 3 Most Frequent IP Addresses:
+---------------------------------
+   - IP: 192.168.1.10 (Occurrences: 18)
+   - IP: 192.168.1.23 (Occurrences: 9)
+   - IP: 192.168.1.15 (Occurrences: 8)
+
+4. All ERROR Log Lines:
+---------------------------------
+2026-09-11 10:03:45 ERROR 192.168.1.23 Connection timeout
+2026-09-11 10:05:00 ERROR 192.168.1.10 Database connection lost
+2026-09-11 10:07:05 ERROR 192.168.1.88 Unauthorized access attempt
+2026-09-11 10:08:50 ERROR 192.168.1.23 Failed login attempt
+2026-09-11 10:10:01 ERROR 192.168.1.88 Invalid CSRF token
+2026-09-11 10:11:45 ERROR 192.168.1.23 Out of memory exception
+2026-09-11 10:13:00 ERROR 192.168.1.99 Disk write failure
+2026-09-11 10:14:05 ERROR 192.168.1.88 SSL handshake failed
+2026-09-11 10:15:40 ERROR 192.168.1.10 Permission denied
+2026-09-11 10:17:20 ERROR 192.168.1.23 Port scanning detected
+2026-09-11 10:18:12 ERROR 192.168.1.88 SQL injection pattern blocked
+2026-09-11 10:19:30 ERROR 192.168.1.99 Kernel panic warning
+2026-09-11 10:21:40 ERROR 192.168.1.88 Rate limit exceeded
+2026-09-11 10:22:30 ERROR 192.168.1.23 Service unreachable
+2026-09-11 10:24:12 ERROR 192.168.1.10 Payment gateway timeout
+2026-09-11 10:25:55 ERROR 192.168.1.88 SSH brute force blocked
+2026-09-11 10:27:10 ERROR 192.168.1.99 Storage volume unmounted
+
+==========================================
